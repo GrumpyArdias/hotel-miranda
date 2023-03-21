@@ -15,6 +15,7 @@ burguerbutton.addEventListener("click", () => {
     menuOpen = false;
   } else {
     popUpMenu.style.display = "block";
+
     burguerMenuIcon.style.display = "none";
     closeIcon.style.display = "block";
     menuOpen = true;

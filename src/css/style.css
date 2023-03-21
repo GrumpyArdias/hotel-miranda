@@ -37,28 +37,150 @@ body {
 }
 
 .pop__up__menu {
-  margin-top: 8px;
-  margin-left: 21px;
   display: none;
   position: absolute;
+  font-family: "Archivo";
+  font-weight: 600;
+  background-color: white;
+  min-width: 100%;
+  position: 10vh;
 }
 .pop__up__menu ul {
+  margin-top: 8px;
+  margin-left: 21px;
   list-style-type: none;
+  margin-bottom: 35px;
 }
 .pop__up__menu ul li {
   margin-top: 24px;
 }
 
-html,
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border-color: 1px solid greenyellow;
+.base__for__you {
+  background-color: rgb(51, 51, 51);
+}
+.base__for__you__first__text {
+  padding-top: 75px;
+  padding-left: 20px;
+  font-family: "Archivo";
+  max-width: 55%;
+}
+.base__for__you__first__text h4 {
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+}
+.base__for__you__second__text {
+  margin-top: 40px;
+  padding-left: 20px;
+  color: rgb(255, 255, 255);
+}
+.base__for__you__second__text h2 {
+  font-family: " Old Standard TT";
+  font-weight: 400;
+  font-size: 50px;
+}
+.base__for__you__buttons {
+  display: flex;
+  flex-direction: column;
+}
+.base__for__you__take__a__tour {
+  background-color: rgb(190, 173, 142);
+  max-width: 41%;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.base__for__you__take__a__tour p {
+  color: rgb(255, 255, 255);
+  font-family: "Archivo";
+  font-weight: 700;
+  margin: 24px 12px;
+}
+.base__for__you__learn__more {
+  max-width: 42%;
+  margin-left: 20px;
+  margin-top: 24px;
+  margin-bottom: 76px;
+  border: 2px solid rgba(255, 255, 255, 0.33);
+}
+.base__for__you__learn__more p {
+  color: rgb(255, 255, 255);
+  font-family: "Archivo";
+  font-weight: 700;
+  margin: 24px 12px;
 }
 
-body {
-  min-width: 320px;
+.dates {
+  background-color: rgb(34, 34, 34);
+  padding-bottom: 36px;
+}
+.dates__arrival {
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(190, 173, 142);
+  max-width: 80%;
+  padding-top: 36px;
+  margin-left: 20px;
+}
+.dates__arrival form {
+  min-width: 80%;
+}
+.dates__arrival form label {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+}
+.dates__arrival form input {
+  background-color: rgb(34, 34, 34);
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 24px;
+  color: rgb(190, 173, 142);
+  border: none;
+  color-scheme: rgb(190, 173, 142);
+  font-family: "Roboto";
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+.dates__departure {
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(190, 173, 142);
+  max-width: 80%;
+  padding-top: 36px;
+  margin-left: 20px;
+}
+.dates__departure form {
+  min-width: 80%;
+}
+.dates__departure form label {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+}
+.dates__departure form input {
+  background-color: rgb(34, 34, 34);
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 24px;
+  color: rgb(190, 173, 142);
+  border: none;
+  color-scheme: rgb(190, 173, 142);
+  font-family: "Roboto";
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+.dates__button {
+  margin-top: 42px;
+  margin-left: 20px;
+  background-color: rgb(190, 173, 142);
+  max-width: 59%;
+  padding: 14px 12px;
+  margin-bottom: 36px;
+}
+.dates__button p {
+  color: rgb(255, 255, 255);
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */

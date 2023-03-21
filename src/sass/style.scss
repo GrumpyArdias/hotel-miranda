@@ -1,13 +1,137 @@
 @use "main";
 @use "header";
 @use "popUpMenu";
-html,
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border-color: 1px solid greenyellow;
+@use "vars";
+
+.base__for__you {
+  background-color: rgba(51, 51, 51, 1);
+  &__first__text {
+    padding-top: 75px;
+    padding-left: 20px;
+    font-family: vars.$second-font;
+    max-width: 55%;
+
+    h4 {
+      font-size: 13px;
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+  &__second__text {
+    margin-top: 40px;
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 1);
+
+    h2 {
+      font-family: vars.$main-font;
+      font-weight: vars.$main-font-weight;
+      font-size: 50px;
+    }
+  }
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  &__take__a__tour {
+    background-color: rgba(190, 173, 142, 1);
+    max-width: 41%;
+    margin-left: 20px;
+    margin-top: 40px;
+    p {
+      color: rgba(255, 255, 255, 1);
+      font-family: vars.$second-font;
+      font-weight: 700;
+      margin: 24px 12px;
+    }
+  }
+  &__learn__more {
+    max-width: 42%;
+    margin-left: 20px;
+    margin-top: 24px;
+    margin-bottom: 76px;
+    border: 2px solid rgba(255, 255, 255, 0.33);
+    p {
+      color: rgba(255, 255, 255, 1);
+      font-family: vars.$second-font;
+      font-weight: 700;
+      margin: 24px 12px;
+    }
+  }
 }
-body {
-  min-width: 320px;
+
+.dates {
+  background-color: rgba(34, 34, 34, 1);
+  padding-bottom: 36px;
+
+  &__arrival {
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(190, 173, 142, 1);
+    max-width: 80%;
+    padding-top: 36px;
+    margin-left: 20px;
+    form {
+      min-width: 80%;
+      label {
+        color: rgba(255, 255, 255, 1);
+        font-family: vars.$third-font;
+        font-weight: 700;
+        font-size: 16px;
+      }
+      input {
+        background-color: rgba(34, 34, 34, 1);
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 24px;
+        color: rgba(190, 173, 142, 1);
+        border: none;
+        color-scheme: rgba(190, 173, 142, 1);
+        font-family: vars.$third-font;
+        font-size: 14px;
+        margin-bottom: 14px;
+      }
+    }
+  }
+  &__departure {
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(190, 173, 142, 1);
+    max-width: 80%;
+    padding-top: 36px;
+    margin-left: 20px;
+
+    form {
+      min-width: 80%;
+
+      label {
+        color: rgba(255, 255, 255, 1);
+        font-family: vars.$third-font;
+        font-weight: 700;
+        font-size: 16px;
+      }
+      input {
+        background-color: rgba(34, 34, 34, 1);
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 24px;
+        color: rgba(190, 173, 142, 1);
+        border: none;
+        color-scheme: rgba(190, 173, 142, 1);
+        font-family: vars.$third-font;
+        font-size: 14px;
+        margin-bottom: 14px;
+      }
+    }
+  }
+  &__button {
+    margin-top: 42px;
+    margin-left: 20px;
+    background-color: rgb(190, 173, 142);
+    max-width: 59%;
+    padding: 14px 12px;
+    margin-bottom: 36px;
+    p {
+      color: rgba(255, 255, 255, 1);
+      font-family: vars.$second-font;
+      font-weight: 700;
+      font-size: 14px;
+    }
+  }
 }
