@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  max-height: 70px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.29);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  &-burguer-menu {
+    #header-burguer-menu-icon {
+      margin-top: 24px;
+      margin-left: 19px;
+    }
+    #header-burguer-menu-close-icon {
+      margin-top: 24px;
+      margin-left: 19px;
+      display: none;
+    }
+  }
+  &-icons-logo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10vw;
+    grid-row-gap: 0px;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 26px;
+  }
+}

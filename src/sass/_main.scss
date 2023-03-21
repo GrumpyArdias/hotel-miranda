@@ -1,13 +1,11 @@
-@use "main";
-@use "header";
-
 html,
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border-color: 1px solid greenyellow;
+  border-color: 3px solid greenyellow;
 }
+
 body {
   min-width: 320px;
 }
