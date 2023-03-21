@@ -16,16 +16,16 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.29);
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
-.header-burguer-menu #header-burguer-menu-icon {
+.header__burguer__menu #header__burguer__menu__icon {
   margin-top: 24px;
   margin-left: 19px;
 }
-.header-burguer-menu #header-burguer-menu-close-icon {
+.header__burguer__menu #header__burguer__menu__close__icon {
   margin-top: 24px;
   margin-left: 19px;
   display: none;
 }
-.header-icons-logo {
+.header__icons__logo {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
@@ -34,6 +34,19 @@ body {
   align-items: center;
   margin-left: 60px;
   margin-right: 26px;
+}
+
+.pop__up__menu {
+  margin-top: 8px;
+  margin-left: 21px;
+  display: none;
+  position: absolute;
+}
+.pop__up__menu ul {
+  list-style-type: none;
+}
+.pop__up__menu ul li {
+  margin-top: 24px;
 }
 
 html,
