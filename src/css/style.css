@@ -183,4 +183,130 @@ body {
   font-size: 14px;
 }
 
+.about__us {
+  margin-top: 60px;
+  background-color: rgb(249, 249, 249);
+  padding-bottom: 60px;
+}
+.about__us__h5 {
+  margin-left: 20px;
+  padding-top: 25px;
+}
+.about__us__h5 h5 {
+  font-family: "Archivo";
+  font-size: 13px;
+  font-weight: 700;
+  color: rgb(119, 119, 119);
+}
+.about__us__discover {
+  max-width: 85%;
+  margin-left: 20px;
+}
+.about__us__discover h3 {
+  font-size: 50px;
+  font-family: " Old Standard TT";
+  font-weight: 400;
+}
+.about__us__discover p {
+  font-family: "Archivo";
+  margin-top: 16px;
+  text-align: justify;
+  font-weight: 400;
+  color: rgb(119, 119, 119);
+}
+.about__us__button {
+  margin-top: 24px;
+  background-color: rgb(189, 172, 141);
+  max-width: 40%;
+  padding: 15px 6px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+}
+.about__us__button p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.about__us__first__img {
+  width: 80%;
+  height: 300px;
+  background-color: rgb(228, 228, 228);
+  margin: 0 auto;
+}
+.about__us__people__img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 56px;
+}
+.about__us__front__image {
+  z-index: 2;
+}
+.about__us__back__image {
+  position: relative;
+  z-index: 1;
+}
+.about__us__back__image img {
+  opacity: 0.1;
+  scale: 180%;
+  translate: 77% -69%;
+}
+.about__us__strong__team__text {
+  max-width: 66%;
+  margin: -30px auto;
+}
+.about__us__strong__team__text h4 {
+  text-align: center;
+  font-family: " Old Standard TT";
+  font-weight: 400;
+  font-size: 30px;
+}
+.about__us__strong__team__text p {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+}
+.about__us__rooms {
+  display: flex;
+  flex-direction: column;
+  margin-top: 83px;
+}
+.about__us__rooms__photo {
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+  background-color: rgb(228, 228, 228);
+}
+.about__us__rooms__text {
+  max-width: 80%;
+  background-color: rgb(34, 34, 34);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.about__us__rooms__calendar {
+  margin-top: 54px;
+  margin-left: 98px;
+  margin-right: 106px;
+}
+.about__us__rooms__info {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.about__us__rooms__info h4 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: " Old Standard TT";
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.about__us__rooms__info p {
+  margin-top: 21px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 38px;
+}
+
 /*# sourceMappingURL=style.css.map */
