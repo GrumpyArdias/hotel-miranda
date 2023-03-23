@@ -698,6 +698,43 @@
   text-decoration: none;
 }
 
+.about__us__page__first__block {
+  background-color: rgb(51, 51, 51);
+  padding-top: 75px;
+  padding-left: 20px;
+}
+.about__us__page__first__block h4 {
+  font-family: "Archivo";
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2.8px;
+  color: rgb(255, 255, 255);
+}
+.about__us__page__first__block h2 {
+  margin-top: 16px;
+  font-family: " Old Standard TT";
+  font-size: 56px;
+  font-weight: 400;
+  letter-spacing: -1.2px;
+  color: rgb(255, 255, 255);
+}
+.about__us__page__first__block__breadcrums {
+  margin-top: 63px;
+  max-width: 45%;
+  background-color: rgb(255, 255, 255);
+  padding: 16px 24px;
+  margin-left: 50%;
+}
+.about__us__page__first__block__breadcrums h5 {
+  text-align: center;
+  font-family: "Archivo";
+  font-size: 16px;
+  letter-spacing: -0.48px;
+}
+.about__us__page__first__block__breadcrums h5 span {
+  color: rgb(190, 173, 142);
+}
+
 html,
 * {
   box-sizing: border-box;
