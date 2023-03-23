@@ -21,3 +21,54 @@ burguerbutton.addEventListener("click", () => {
     menuOpen = true;
   }
 });
+
+//Swipers
+
+const swiper = new Swiper(".swiper", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: true,
+
+  pagination: {
+    el: ".swiper-pagination",
+  },
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  scrollbar: {
+    el: ".swiper-scrollbar",
+  },
+});
+
+const swiperFeatures = new Swiper(".swiper-features", {
+  // Optional parameters
+  direction: "horizontal",
+
+  pagination: {
+    el: ".swiper-pagination",
+  },
+
+  scrollbar: {
+    el: ".swiper-scrollbar",
+  },
+});
+
+const swiperMenu = new Swiper(".swiper-menu", {
+  // Optional parameters
+  direction: "horizontal",
+
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  scrollbar: {
+    el: ".swiper-scrollbar",
+  },
+});

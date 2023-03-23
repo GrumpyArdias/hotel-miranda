@@ -1,15 +1,3 @@
-html,
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border-color: 3px solid greenyellow;
-}
-
-body {
-  min-width: 320px;
-}
-
 .header {
   display: flex;
   max-height: 70px;
@@ -252,6 +240,7 @@ body {
   translate: 77% -69%;
 }
 .about__us__strong__team__text {
+  background-color: white;
   max-width: 66%;
   margin: -30px auto;
 }
@@ -307,6 +296,418 @@ body {
   color: rgb(255, 255, 255);
   text-align: center;
   margin-bottom: 38px;
+}
+
+.rooms__first__block {
+  margin-top: 60px;
+}
+.rooms__first__block__text h5 {
+  text-align: center;
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(119, 119, 119);
+}
+.rooms__first__block__text h3 {
+  margin-top: 24px;
+  text-align: center;
+  font-family: " Old Standard TT";
+  font-weight: 400;
+  font-size: 56px;
+}
+.rooms__first__block__text #multibar {
+  z-index: 2;
+  translate: 0 60%;
+  position: relative;
+}
+.rooms__first__block__text #multibar img {
+  margin: 0 7%;
+}
+.rooms__first__block__text .swiper {
+  width: 100%;
+  height: 100%;
+}
+.rooms__first__block__text .swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rooms__first__block__text .swiper .swiper-slide img {
+  display: block;
+  max-width: 100%;
+  max-height: 30%;
+  object-fit: cover;
+}
+.rooms__second__block__text {
+  max-width: 90%;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 20px;
+  translate: 0 -20%;
+  z-index: 2;
+  background-color: white;
+  margin-bottom: 54px;
+}
+.rooms__second__block__text h3 {
+  text-align: center;
+  font-family: " Old Standard TT";
+  font-weight: 400;
+  font-size: 28px;
+}
+.rooms__second__block__text p {
+  margin-top: 12px;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(119, 119, 119);
+}
+.rooms__second__block__text h4 {
+  margin-top: 14px;
+  text-align: center;
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 32px;
+  color: rgb(190, 173, 142);
+}
+.rooms__second__block__text h4 span {
+  text-align: center;
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 14px;
+  color: rgb(190, 173, 142);
+}
+.rooms__video__block {
+  background-color: rgb(34, 34, 34);
+  padding-bottom: 48px;
+}
+.rooms__video__block__text {
+  padding-top: 60px;
+  margin-bottom: 32px;
+}
+.rooms__video__block__text h5 {
+  margin-left: 24px;
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2.8px;
+  color: rgb(189, 172, 141);
+}
+.rooms__video__block__text h3 {
+  margin-top: 32px;
+  margin-left: 20px;
+  font-family: " Old Standard TT";
+  font-size: 56px;
+  font-weight: 400;
+  letter-spacing: -1.2px;
+  color: rgb(255, 255, 255);
+}
+.rooms__video__block__text p {
+  margin-top: 16px;
+  margin-left: 20px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(194, 194, 194);
+  text-align: left;
+}
+.rooms__video__block__video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+.rooms__video__block__button {
+  background-color: rgb(189, 172, 141);
+  max-width: 52%;
+  margin-top: 36px;
+  margin-left: 20px;
+  padding: 11px 30px;
+}
+.rooms__video__block__button h3 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.4px;
+}
+
+.facilities__first__block {
+  background-color: #e5e5e5;
+  padding-top: 60px;
+  padding-bottom: 32px;
+}
+.facilities__first__block h5 {
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2.8px;
+  color: rgb(119, 119, 119);
+  text-align: center;
+}
+.facilities__first__block h3 {
+  margin-top: 25px;
+  font-family: " Old Standard TT";
+  font-size: 56px;
+  font-weight: 400;
+  letter-spacing: -1.6px;
+  color: rgb(34, 34, 34);
+  text-align: center;
+}
+.facilities__images {
+  display: flex;
+}
+.facilities__images #finger-stars {
+  margin-top: 113px;
+  margin-left: 38px;
+  margin-right: 45px;
+}
+.facilities__images #numer-one {
+  margin-top: 32px;
+  object-fit: contain;
+}
+.facilities__second__bock {
+  margin-left: 38px;
+}
+.facilities__second__bock h4 {
+  margin-top: 38px;
+  font-family: " Old Standard TT";
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: -0.9px;
+  color: rgb(34, 34, 34);
+}
+.facilities__second__bock p {
+  margin-top: 28px;
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 400;
+  color: rgb(119, 119, 119);
+}
+.facilities__third__bock {
+  margin-top: 60px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu__first__block {
+  margin-left: 20px;
+}
+.menu__first__block h5 {
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(119, 119, 119);
+  letter-spacing: 2.8px;
+}
+.menu__first__block h3 {
+  font-family: " Old Standard TT";
+  font-size: 56px;
+  font-weight: 400;
+  color: rgb(34, 34, 34);
+  letter-spacing: -1.2px;
+}
+.menu__second__block__wrap {
+  display: flex;
+  max-width: 90%;
+  margin-left: 20px;
+  margin-top: 28px;
+}
+.menu__second__block__img {
+  max-width: 40%;
+}
+.menu__second__block__img img {
+  max-width: 100%;
+  height: auto;
+}
+.menu__second__block__text {
+  margin-left: 30px;
+  max-width: 40%;
+}
+.menu__second__block__text h4 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: " Old Standard TT";
+  letter-spacing: -0.24px;
+}
+.menu__second__block__text p {
+  text-align: justify;
+}
+.menu .swiper-wrapper {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.menu__third__block {
+  margin: 60px auto;
+}
+.menu__third__block__img img {
+  max-width: 100%;
+  height: auto;
+}
+.menu__fourth__block {
+  margin-top: 60px;
+  background-color: rgb(34, 34, 34);
+  padding-bottom: 48px;
+}
+.menu__fourth__block__stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu__fourth__block__img {
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+.menu__fourth__block__text {
+  max-width: 54%;
+  margin-bottom: 12px;
+}
+.menu__fourth__block__text h4 {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  line-height: 0.6;
+}
+.menu__fourth__block__text h4 span {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: rgb(153, 153, 153);
+}
+
+.footer {
+  margin-top: 60px;
+}
+.footer__first__block__text {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.footer__first__block__text p {
+  font-family: "Archivo";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(119, 119, 119);
+  text-align: left;
+  margin-bottom: 32px;
+}
+.footer__first__block__logos {
+  max-width: 80%;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer__first__block__logos a {
+  text-decoration: none;
+}
+.footer__first__block__logos a .logo-wrap {
+  min-width: 40px;
+  min-height: 40px;
+}
+.footer__first__block__logos a .logo-wrap img {
+  margin: 8px 8px;
+  color: rgb(119, 119, 119);
+  width: 40px;
+  height: 40px;
+}
+.footer__second__block {
+  margin-left: 20px;
+}
+.footer__second__block h3 {
+  font-family: " Old Standard TT";
+  font-weight: 400;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  margin-top: 40px;
+}
+.footer__second__block__wrap {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  max-width: 90%;
+}
+.footer__second__block .cell {
+  margin-top: 20px;
+}
+.footer__second__block .cell p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(119, 119, 119);
+}
+.footer__third__block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  margin-left: 20px;
+}
+.footer__third__block h3 {
+  font-family: " Old Standard TT";
+  font-weight: 400;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  margin-top: 40px;
+  margin-bottom: 34px;
+}
+.footer__third__block__row {
+  display: flex;
+  max-width: 60%;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.footer__third__block__img {
+  margin-right: 24px;
+}
+.footer__third__block__text h5 {
+  font-family: " Old Standard TT";
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(34, 34, 34);
+}
+.footer__fourth__block {
+  background-color: rgb(248, 248, 248);
+  padding-top: 16px;
+  margin-left: 20px;
+}
+.footer__fourth__block #cp {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.48 px;
+}
+.footer__fourth__block #tos {
+  margin-top: 24px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.48 px;
+  color: rgb(34, 34, 34);
+  margin-bottom: 16px;
+  text-decoration: none;
+}
+.footer__fourth__block #tos a {
+  text-decoration: none;
+}
+
+html,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-color: 3px solid greenyellow;
+}
+
+body {
+  min-width: 320px;
 }
 
 /*# sourceMappingURL=style.css.map */

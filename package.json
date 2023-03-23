@@ -1,8 +1,9 @@
 {
   "dependencies": {
-    "sass": "^1.59.3"
+    "sass": "^1.59.3",
+    "swiper": "^9.1.1"
   },
   "scripts": {
-    "sass": " sass --watch src/sass/style.scss src/css/style.css"
+    "sass": " sass --watch src/sass/styles.scss src/css/style.css"
   }
 }
