@@ -4,6 +4,6 @@
     "swiper": "^9.1.1"
   },
   "scripts": {
-    "sass": " sass --watch src/sass/styles.scss src/css/style.css"
+    "sass": " sass --watch /sass/styles.scss src/css/style.css"
   }
 }

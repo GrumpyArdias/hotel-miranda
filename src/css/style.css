@@ -734,6 +734,113 @@
 .about__us__page__first__block__breadcrums h5 span {
   color: rgb(190, 173, 142);
 }
+.about__us__page__second__block__video {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 36px;
+}
+.about__us__page__second__block__text {
+  margin-bottom: 51px;
+}
+.about__us__page__second__block__text h4 {
+  font-family: " Old Standard TT";
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: -1.16px;
+  color: rgb(34, 34, 34);
+  text-align: center;
+}
+.about__us__page__second__block__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+.about__us__page__second__block__grid #plane {
+  background-color: #bead8e;
+  color: white;
+}
+.about__us__page__second__block__grid .grid-item {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.about__us__page__second__block__grid .grid-item img {
+  max-width: 60%;
+  margin: 0 auto;
+}
+.about__us__page__second__block__grid .grid-item h5 {
+  margin-top: 12px;
+  text-align: center;
+  font-family: "Archivo";
+  font-size: 12px;
+  letter-spacing: 2.4px;
+}
+.about__us__page__third__block {
+  margin-top: 71px;
+}
+.about__us__page__third__block__img {
+  background-color: #e5e5e5;
+  width: 295px;
+  height: 232px;
+  margin: 20px auto;
+}
+.about__us__page__third__block__text {
+  margin-top: 32px;
+  margin-left: 40px;
+}
+.about__us__page__third__block__text h5 {
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 14;
+  letter-spacing: 2.8px;
+  color: #777777;
+}
+.about__us__page__third__block__text h3 {
+  font-family: " Old Standard TT";
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: -1.6px;
+  margin-top: 26px;
+}
+.about__us__page__third__block__text p {
+  font-family: "Archivo";
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 26px;
+  color: #777777;
+  line-height: 24px;
+}
+.about__us__page__third__block__button {
+  margin-top: 16px;
+  max-width: 59%;
+  background-color: #bead8e;
+  margin-left: 40px;
+}
+.about__us__page__third__block__button h5 {
+  padding: 28px 48px;
+  color: #ffffff;
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+}
+.about__us__page__fourth__block {
+  background-color: #222222;
+  color: #ffffff;
+  margin-top: 60px;
+}
+.about__us__page__fourth__block #about__us__page__facilites__first__block {
+  background-color: #222222;
+  color: #ffffff !important;
+}
+.about__us__page__fourth__block #about__us__page__facilites__first__block h5 {
+  color: #ffffff;
+}
+.about__us__page__fourth__block #about__us__page__facilites__first__block h3 {
+  color: #ffffff;
+}
 
 html,
 * {
